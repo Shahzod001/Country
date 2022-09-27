@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-country {
+    @apply max-w-wrapperWidth mx-auto px-5;
+}
+
+.card-styles {
+    @apply shadow-cardShadow rounded-cardRadius bg-white;
+}
